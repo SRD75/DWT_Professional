@@ -1,0 +1,63 @@
+/*
+Theme Name: Doig Professional
+Author: Steve Doig
+Author URI: https://s.doig.com.au
+Version: 0.1
+Description: Doig Professional is a clean, minimal theme designed for professionals.
+Text Domain: dwt_professional
+Tags: one-column, custom-menu, featured-images, theme-options, translation-ready
+
+Resource Licenses:
+Font Awesome: http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+Bootstrap: http://getbootstrap.com | https://github.com/twbs/bootstrap/blob/master/LICENSE (Code licensed under MIT, documentation under CC BY 3.0.)
+Owl Carousel 2: http://www.owlcarousel.owlgraphic.com/ | https://github.com/smashingboxes/OwlCarousel2/blob/develop/LICENSE (Code licensed under MIT)
+and of course
+jQuery: https://jquery.org | (Code licensed under MIT)
+WP Bootstrap Navwalker by Edward McIntyre: https://github.com/twittem/wp-bootstrap-navwalker | GNU GPL
+*/
+
+/* Navigation */
+#wrapper-navbar .navbar {margin-bottom: 0;}
+.navbar-brand>img:hover {background-color: rgba(255,255,255,0.2);}
+.navbar .navbar-brand {height: auto;}
+.navbar-inverse .navbar-nav .nav-link:hover {background-color: #444;}
+.navbar-nav .nav-link:hover {background-color: rgba(255,255,255,0.2);}
+.dropdown-toggle::after {display: none;}
+.navbar-toggleable-md .navbar-nav .nav-link {
+	color: rgba(255,255,255,0.85);
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.navbar-toggleable-md .navbar-nav .nav-link:hover {
+	color: rgba(255,255,255,1);
+}
+
+/* Front Cover */
+#wrapper-front-cover {
+	background-color: #0098CA;
+	height: calc(100vh - 103px);
+	padding: 2em;
+	vertical-align: middle;
+	color: #000;
+	display: table-cell;
+	text-shadow: 1px 1px 2px #000;
+}
+
+/* Hero Content */
+#wrapper-static-hero h2 {margin-top: 0;}
+
+/* Footer */
+footer#colophon {width: 100%;}
+.copyright {clear: both; overflow: auto;}
+.copyright, .copyright a {color: #888;}
+.copyright .col-xs-6 {padding: 0;}
+.copyright .col-xs-6:last-child {text-align: right;}
+.copyright .col-xs-6:last-child img {width: 30px; height: auto;}
+.site-info {color: #555; font-size: 0.75em; text-align: right; padding-top: 1em;}
+.site-info a {color: #555;}
+
+/* Social Media */
+img.icon-facebook:hover {content: url('../dwt-accountant/images/icon_over_facebook.png');}
+img.icon-linkedin:hover {content: url('../dwt-accountant/images/icon_over_linkedin.png');}
+img.icon-google:hover {content: url('../dwt-accountant/images/icon_over_google.png');}
+img.icon-twitter:hover {content: url('../dwt-accountant/images/icon_over_twitter.png');}

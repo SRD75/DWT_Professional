@@ -1,0 +1,31 @@
+{
+  "name": "dwt_professional",
+  "version": "0.5.2",
+  "homepage": "http://www.website.technology",
+  "authors": [
+    "Steve Doig <steve@doig.com.au>"
+  ],
+  "description": "Doig Professional is a clean, minimal theme designed for professionals.",
+  "moduleType": "globals",
+  "main": [
+    "sass/theme.scss"
+  ],
+  "keywords": [
+    "bootstrap",
+    "underscores",
+    "wordpress",
+    "_s",
+    "sass"
+  ],
+  "license": "GPL-2.0",
+  "ignore": [
+    "**/.*",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  },
+  "_source": "https://github.com/SRD75/dwt_professional.gi",
+  "_target": "~0.1",
+  "_originalSource": "understrap"
+}
