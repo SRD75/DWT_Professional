@@ -25,7 +25,7 @@
   ],
   "dependencies": {
   },
-  "_source": "https://github.com/SRD75/dwt_professional.gi",
+  "_source": "https://github.com/SRD75/dwt_professional.git",
   "_target": "~0.1",
   "_originalSource": "understrap"
 }
